@@ -8,7 +8,7 @@
 
 #import "RequestManager.h"
 
-#define URL_PHOTOS @"http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=20&minx=20&miny=20&maxx=100&maxy=100&size=medium&mapfilter=true"
+#define URL_PHOTOS @"http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=20&minx=20&miny=20&maxx=100&maxy=100&size=medium&mapfilter=true" // we can also change the query parameters to get diff results
 @implementation RequestManager
 
 +(RequestManager*)sharedInstance
