@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D25CCED3A33F0E0880AA73B /* libPods-ParadoxTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C5DBD414BD5FEE31E89004 /* libPods-ParadoxTest.a */; };
+		E26FB4C01D003F66006A0966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E26FB4BF1D003F66006A0966 /* main.m */; };
+		E26FB4C31D003F66006A0966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E26FB4C21D003F66006A0966 /* AppDelegate.m */; };
+		E26FB4C61D003F66006A0966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26FB4C51D003F66006A0966 /* ViewController.m */; };
+		E26FB4C91D003F66006A0966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26FB4C71D003F66006A0966 /* Main.storyboard */; };
+		E26FB4CB1D003F66006A0966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26FB4CA1D003F66006A0966 /* Assets.xcassets */; };
+		E26FB4CE1D003F66006A0966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26FB4CC1D003F66006A0966 /* LaunchScreen.storyboard */; };
+		E26FB4D91D003F67006A0966 /* ParadoxTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26FB4D81D003F67006A0966 /* ParadoxTestTests.m */; };
+		E26FB4E41D003F67006A0966 /* ParadoxTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26FB4E31D003F67006A0966 /* ParadoxTestUITests.m */; };
+		E29DBE101D004247008364F0 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DBE0F1D004247008364F0 /* Photo.m */; };
+		E29DBE151D004309008364F0 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DBE141D004309008364F0 /* RequestManager.m */; };
+		E29DBE191D0044AC008364F0 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DBE171D0044AC008364F0 /* PhotoCell.m */; };
+		E29DBE1A1D0044AC008364F0 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29DBE181D0044AC008364F0 /* PhotoCell.xib */; };
+		E29DBE1D1D004B2E008364F0 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DBE1C1D004B2E008364F0 /* Parser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E26FB4D51D003F67006A0966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26FB4B31D003F66006A0966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26FB4BA1D003F66006A0966;
+			remoteInfo = ParadoxTest;
+		};
+		E26FB4E01D003F67006A0966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26FB4B31D003F66006A0966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26FB4BA1D003F66006A0966;
+			remoteInfo = ParadoxTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C96E08F0E6F86D29FC302D93 /* Pods-ParadoxTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParadoxTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParadoxTest/Pods-ParadoxTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D31FFDDDE3E23E109F1A7E31 /* Pods-ParadoxTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParadoxTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParadoxTest/Pods-ParadoxTest.release.xcconfig"; sourceTree = "<group>"; };
+		E26FB4BB1D003F66006A0966 /* ParadoxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParadoxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26FB4BF1D003F66006A0966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E26FB4C11D003F66006A0966 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E26FB4C21D003F66006A0966 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E26FB4C41D003F66006A0966 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E26FB4C51D003F66006A0966 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E26FB4C81D003F66006A0966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E26FB4CA1D003F66006A0966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E26FB4CD1D003F66006A0966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E26FB4CF1D003F66006A0966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26FB4D41D003F67006A0966 /* ParadoxTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParadoxTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26FB4D81D003F67006A0966 /* ParadoxTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParadoxTestTests.m; sourceTree = "<group>"; };
+		E26FB4DA1D003F67006A0966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26FB4DF1D003F67006A0966 /* ParadoxTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParadoxTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26FB4E31D003F67006A0966 /* ParadoxTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParadoxTestUITests.m; sourceTree = "<group>"; };
+		E26FB4E51D003F67006A0966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29DBE0E1D004247008364F0 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Photo.h; path = data/Photo.h; sourceTree = "<group>"; };
+		E29DBE0F1D004247008364F0 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Photo.m; path = data/Photo.m; sourceTree = "<group>"; };
+		E29DBE131D004309008364F0 /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RequestManager.h; path = comm/RequestManager.h; sourceTree = "<group>"; };
+		E29DBE141D004309008364F0 /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RequestManager.m; path = comm/RequestManager.m; sourceTree = "<group>"; };
+		E29DBE161D0044AC008364F0 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		E29DBE171D0044AC008364F0 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		E29DBE181D0044AC008364F0 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		E29DBE1B1D004B2E008364F0 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Parser.h; path = data/Parser.h; sourceTree = "<group>"; };
+		E29DBE1C1D004B2E008364F0 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Parser.m; path = data/Parser.m; sourceTree = "<group>"; };
+		F1C5DBD414BD5FEE31E89004 /* libPods-ParadoxTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParadoxTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E26FB4B81D003F66006A0966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D25CCED3A33F0E0880AA73B /* libPods-ParadoxTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26FB4D11D003F67006A0966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26FB4DC1D003F67006A0966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		496523679CBBAD927322A995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1C5DBD414BD5FEE31E89004 /* libPods-ParadoxTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6348C3D96F6F344BD6F32E83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C96E08F0E6F86D29FC302D93 /* Pods-ParadoxTest.debug.xcconfig */,
+				D31FFDDDE3E23E109F1A7E31 /* Pods-ParadoxTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E26FB4B21D003F66006A0966 = {
+			isa = PBXGroup;
+			children = (
+				E26FB4BD1D003F66006A0966 /* ParadoxTest */,
+				E26FB4D71D003F67006A0966 /* ParadoxTestTests */,
+				E26FB4E21D003F67006A0966 /* ParadoxTestUITests */,
+				E26FB4BC1D003F66006A0966 /* Products */,
+				6348C3D96F6F344BD6F32E83 /* Pods */,
+				496523679CBBAD927322A995 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E26FB4BC1D003F66006A0966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E26FB4BB1D003F66006A0966 /* ParadoxTest.app */,
+				E26FB4D41D003F67006A0966 /* ParadoxTestTests.xctest */,
+				E26FB4DF1D003F67006A0966 /* ParadoxTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26FB4BD1D003F66006A0966 /* ParadoxTest */ = {
+			isa = PBXGroup;
+			children = (
+				E29DBE121D0042E7008364F0 /* communication */,
+				E29DBE111D004260008364F0 /* data */,
+				E26FB4C11D003F66006A0966 /* AppDelegate.h */,
+				E26FB4C21D003F66006A0966 /* AppDelegate.m */,
+				E26FB4C41D003F66006A0966 /* ViewController.h */,
+				E26FB4C51D003F66006A0966 /* ViewController.m */,
+				E26FB4C71D003F66006A0966 /* Main.storyboard */,
+				E29DBE161D0044AC008364F0 /* PhotoCell.h */,
+				E29DBE171D0044AC008364F0 /* PhotoCell.m */,
+				E29DBE181D0044AC008364F0 /* PhotoCell.xib */,
+				E26FB4CA1D003F66006A0966 /* Assets.xcassets */,
+				E26FB4CC1D003F66006A0966 /* LaunchScreen.storyboard */,
+				E26FB4CF1D003F66006A0966 /* Info.plist */,
+				E26FB4BE1D003F66006A0966 /* Supporting Files */,
+			);
+			path = ParadoxTest;
+			sourceTree = "<group>";
+		};
+		E26FB4BE1D003F66006A0966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E26FB4BF1D003F66006A0966 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E26FB4D71D003F67006A0966 /* ParadoxTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E26FB4D81D003F67006A0966 /* ParadoxTestTests.m */,
+				E26FB4DA1D003F67006A0966 /* Info.plist */,
+			);
+			path = ParadoxTestTests;
+			sourceTree = "<group>";
+		};
+		E26FB4E21D003F67006A0966 /* ParadoxTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E26FB4E31D003F67006A0966 /* ParadoxTestUITests.m */,
+				E26FB4E51D003F67006A0966 /* Info.plist */,
+			);
+			path = ParadoxTestUITests;
+			sourceTree = "<group>";
+		};
+		E29DBE111D004260008364F0 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				E29DBE0E1D004247008364F0 /* Photo.h */,
+				E29DBE0F1D004247008364F0 /* Photo.m */,
+				E29DBE1B1D004B2E008364F0 /* Parser.h */,
+				E29DBE1C1D004B2E008364F0 /* Parser.m */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		E29DBE121D0042E7008364F0 /* communication */ = {
+			isa = PBXGroup;
+			children = (
+				E29DBE131D004309008364F0 /* RequestManager.h */,
+				E29DBE141D004309008364F0 /* RequestManager.m */,
+			);
+			name = communication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E26FB4BA1D003F66006A0966 /* ParadoxTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26FB4E81D003F67006A0966 /* Build configuration list for PBXNativeTarget "ParadoxTest" */;
+			buildPhases = (
+				44049F4CAFF1A2C811F78192 /* Check Pods Manifest.lock */,
+				E26FB4B71D003F66006A0966 /* Sources */,
+				E26FB4B81D003F66006A0966 /* Frameworks */,
+				E26FB4B91D003F66006A0966 /* Resources */,
+				A3492A58B81523162A899556 /* Embed Pods Frameworks */,
+				851B7C92FB878C6CA889A22B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParadoxTest;
+			productName = ParadoxTest;
+			productReference = E26FB4BB1D003F66006A0966 /* ParadoxTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E26FB4D31D003F67006A0966 /* ParadoxTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26FB4EB1D003F67006A0966 /* Build configuration list for PBXNativeTarget "ParadoxTestTests" */;
+			buildPhases = (
+				E26FB4D01D003F67006A0966 /* Sources */,
+				E26FB4D11D003F67006A0966 /* Frameworks */,
+				E26FB4D21D003F67006A0966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26FB4D61D003F67006A0966 /* PBXTargetDependency */,
+			);
+			name = ParadoxTestTests;
+			productName = ParadoxTestTests;
+			productReference = E26FB4D41D003F67006A0966 /* ParadoxTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E26FB4DE1D003F67006A0966 /* ParadoxTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26FB4EE1D003F67006A0966 /* Build configuration list for PBXNativeTarget "ParadoxTestUITests" */;
+			buildPhases = (
+				E26FB4DB1D003F67006A0966 /* Sources */,
+				E26FB4DC1D003F67006A0966 /* Frameworks */,
+				E26FB4DD1D003F67006A0966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26FB4E11D003F67006A0966 /* PBXTargetDependency */,
+			);
+			name = ParadoxTestUITests;
+			productName = ParadoxTestUITests;
+			productReference = E26FB4DF1D003F67006A0966 /* ParadoxTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E26FB4B31D003F66006A0966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Dragos;
+				TargetAttributes = {
+					E26FB4BA1D003F66006A0966 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E26FB4D31D003F67006A0966 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E26FB4BA1D003F66006A0966;
+					};
+					E26FB4DE1D003F67006A0966 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E26FB4BA1D003F66006A0966;
+					};
+				};
+			};
+			buildConfigurationList = E26FB4B61D003F66006A0966 /* Build configuration list for PBXProject "ParadoxTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E26FB4B21D003F66006A0966;
+			productRefGroup = E26FB4BC1D003F66006A0966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E26FB4BA1D003F66006A0966 /* ParadoxTest */,
+				E26FB4D31D003F67006A0966 /* ParadoxTestTests */,
+				E26FB4DE1D003F67006A0966 /* ParadoxTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E26FB4B91D003F66006A0966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29DBE1A1D0044AC008364F0 /* PhotoCell.xib in Resources */,
+				E26FB4CE1D003F66006A0966 /* LaunchScreen.storyboard in Resources */,
+				E26FB4CB1D003F66006A0966 /* Assets.xcassets in Resources */,
+				E26FB4C91D003F66006A0966 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26FB4D21D003F67006A0966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26FB4DD1D003F67006A0966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44049F4CAFF1A2C811F78192 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		851B7C92FB878C6CA889A22B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParadoxTest/Pods-ParadoxTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3492A58B81523162A899556 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParadoxTest/Pods-ParadoxTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E26FB4B71D003F66006A0966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29DBE191D0044AC008364F0 /* PhotoCell.m in Sources */,
+				E29DBE151D004309008364F0 /* RequestManager.m in Sources */,
+				E29DBE101D004247008364F0 /* Photo.m in Sources */,
+				E26FB4C61D003F66006A0966 /* ViewController.m in Sources */,
+				E26FB4C31D003F66006A0966 /* AppDelegate.m in Sources */,
+				E29DBE1D1D004B2E008364F0 /* Parser.m in Sources */,
+				E26FB4C01D003F66006A0966 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26FB4D01D003F67006A0966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26FB4D91D003F67006A0966 /* ParadoxTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26FB4DB1D003F67006A0966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26FB4E41D003F67006A0966 /* ParadoxTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E26FB4D61D003F67006A0966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26FB4BA1D003F66006A0966 /* ParadoxTest */;
+			targetProxy = E26FB4D51D003F67006A0966 /* PBXContainerItemProxy */;
+		};
+		E26FB4E11D003F67006A0966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26FB4BA1D003F66006A0966 /* ParadoxTest */;
+			targetProxy = E26FB4E01D003F67006A0966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E26FB4C71D003F66006A0966 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26FB4C81D003F66006A0966 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E26FB4CC1D003F66006A0966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26FB4CD1D003F66006A0966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E26FB4E61D003F67006A0966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E26FB4E71D003F67006A0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E26FB4E91D003F67006A0966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96E08F0E6F86D29FC302D93 /* Pods-ParadoxTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParadoxTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dragos.ParadoxTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E26FB4EA1D003F67006A0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31FFDDDE3E23E109F1A7E31 /* Pods-ParadoxTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParadoxTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dragos.ParadoxTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E26FB4EC1D003F67006A0966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParadoxTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dragos.ParadoxTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParadoxTest.app/ParadoxTest";
+			};
+			name = Debug;
+		};
+		E26FB4ED1D003F67006A0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParadoxTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dragos.ParadoxTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParadoxTest.app/ParadoxTest";
+			};
+			name = Release;
+		};
+		E26FB4EF1D003F67006A0966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParadoxTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dragos.ParadoxTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParadoxTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E26FB4F01D003F67006A0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParadoxTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dragos.ParadoxTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParadoxTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E26FB4B61D003F66006A0966 /* Build configuration list for PBXProject "ParadoxTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26FB4E61D003F67006A0966 /* Debug */,
+				E26FB4E71D003F67006A0966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26FB4E81D003F67006A0966 /* Build configuration list for PBXNativeTarget "ParadoxTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26FB4E91D003F67006A0966 /* Debug */,
+				E26FB4EA1D003F67006A0966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26FB4EB1D003F67006A0966 /* Build configuration list for PBXNativeTarget "ParadoxTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26FB4EC1D003F67006A0966 /* Debug */,
+				E26FB4ED1D003F67006A0966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26FB4EE1D003F67006A0966 /* Build configuration list for PBXNativeTarget "ParadoxTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26FB4EF1D003F67006A0966 /* Debug */,
+				E26FB4F01D003F67006A0966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E26FB4B31D003F66006A0966 /* Project object */;
+}
